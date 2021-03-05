@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <title>CVD Flask App</title>
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+ <div class="login">
+
+	<h1>Cardiovascular Disease Prediction</h1> 
+
+<div> 
+<form action="/predict" method="POST"> 
+	<label for="age">What's your age?</label> 
+	<input type="text" id="age" name="age"> 
+	<br> 
+	<label for="diabetes">Do you have diabetes?</label> 
+	<select id="diabetes" name="diabetes"> 
+	<option value="0">No</option> 
+	<option value="1">Yes</option> 
+	</select> 
+	<br> 
+	<label for="hypertension">Do you have/had hypertension?</label> 
+	<select id="hypertension" name="hypertension"> 
+	<option value="0">No</option> 
+	<option value="1">Yes</option> 
+	</select> 
+	<br> 
+	<label for="smoking">Do you currently smoke or have smoked in the past?</label> 
+	<select id="smoking" name="smoking"> 
+	<option value="0">No</option> 
+	<option value="1">Yes</option> 
+	</select> 
+	<br> 
+	<label for="family">Do you have a family member/relative with heart disease?</label> 
+	<select id="family" name="family"> 
+	<option value="0">No</option> 
+	<option value="1">Yes</option> 
+	</select> 
+	<br> 
+	<input type="submit" value="Get my heart disease risk!"> 
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+ 
+</body>
+</html>
+
+
