@@ -21,3 +21,4 @@ sklearn==0.0
 statsmodels==0.12.2
 threadpoolctl==2.1.0
 gunicorn==19.9.0
+Flask==1.1.1
