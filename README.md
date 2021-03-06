@@ -14,5 +14,7 @@ The performance of four classification algorithms – Logistic Regression, Suppo
 
 ![Image](/Images/Picture3.png)
 
+The top 5 features for the most optimum model were age, diabetes, systolic blood pressure, smoking and family history, which were employed in the development of a cardiovascular disease prediction tool, which takes user input and predicts the disease risk based.
+
 This approach can help transform the health insurance industry in two ways: they can provide new sources of insight to simplify and streamline current underwriting, and they can enhance the understanding of risk to enable more refined, granular categorizations of risk.
 
