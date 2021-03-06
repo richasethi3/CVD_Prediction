@@ -10,5 +10,9 @@ After data cleaning and processing, the target feature CVD_risk showed unequal d
 
 ![Image](/Images/Picture1.png)
 
+Figure below shows the Precision Recall curve and the ROC curve for the validation set with the most optimum model – Logistic Regression with SMOTEENN sampling
+
+![Image](/Images/Picture3.png)
+
 This approach can help transform the health insurance industry in two ways: they can provide new sources of insight to simplify and streamline current underwriting, and they can enhance the understanding of risk to enable more refined, granular categorizations of risk.
 
